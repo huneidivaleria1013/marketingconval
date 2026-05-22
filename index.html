@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Marketing con Val</title>
+  <meta name="description" content="Construye tu negocio digital 1:1 con Val. Solo 15 spots al mes."/>
+  <link rel="stylesheet" href="styles.css"/>
+  <style>
+    /* Hero-specific overrides */
+    body { background: var(--cream); }
+
+    .hero-wrap {
+      display: grid;
+      grid-template-columns: 55% 45%;
+      min-height: 100svh;
+    }
+
+    .hero-right {
+      position: relative;
+      overflow: hidden;
+    }
+    .hero-right img {
+      position: absolute;
+      inset: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: top center;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── HERO ── -->
+<main>
+  <div class="hero-wrap">
+
+    <!-- LEFT: text + stats -->
+    <div class="hero-left">
+      <span class="eyebrow fade-up" style="--d:0ms">Marketing con Val</span>
+
+      <h1 class="hero-title">
+        <span class="line-bebas fade-up" style="--d:80ms">CONSTRUYE</span>
+        <em class="line-playfair fade-up" style="--d:160ms">algo que sea tuyo.</em>
+      </h1>
+
+      <p class="hero-sub fade-up" style="--d:240ms">
+        Trabajo contigo 1:1 desde donde estás hasta donde quieres llegar.
+        Estrategia, contenido y mentalidad — todo junto.
+      </p>
+
+      <div class="hero-stats fade-up" style="--d:320ms">
+        <div class="hero-stat">
+          <span class="hero-stat-num">15</span>
+          <span class="hero-stat-label">Spots por mes</span>
+        </div>
+        <div class="hero-stat" style="border-left:1px solid var(--divider); padding-left:32px;">
+          <span class="hero-stat-num">1:1</span>
+          <span class="hero-stat-label">Siempre</span>
+        </div>
+        <div class="hero-stat" style="border-left:1px solid var(--divider); padding-left:32px;">
+          <span class="hero-stat-num">100%</span>
+          <span class="hero-stat-label">Hasta que llegues</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: photo + floating card -->
+    <div class="hero-right">
+      <img src="DSC00742.JPG" alt="Valeria — Marketing con Val"/>
+
+    </div>
+
+  </div><!-- /hero-wrap -->
+
+  <!-- ── FOLDERS NAV ── -->
+  <nav class="folders-nav" aria-label="Secciones del sitio">
+
+    <!-- 01 Book a Call — wine, dominante -->
+    <a href="book-a-call.html" class="folder-item folder-item--wine">
+      <div class="folder-top">
+        <span class="folder-num">01</span>
+        <span class="folder-name">BOOK A CALL</span>
+      </div>
+      <div style="display:flex; align-items:flex-end; justify-content:space-between;">
+        <span class="folder-desc">Solo 15 spots · Yo elijo</span>
+        <span class="folder-arrow">→</span>
+      </div>
+    </a>
+
+    <!-- 02 My Services -->
+    <a href="services.html" class="folder-item">
+      <div class="folder-top">
+        <span class="folder-num">02</span>
+        <span class="folder-name">MY SERVICES</span>
+      </div>
+      <div style="display:flex; align-items:flex-end; justify-content:space-between;">
+        <span class="folder-desc">Mentoría 1:1 personalizada</span>
+        <span class="folder-arrow">→</span>
+      </div>
+    </a>
+
+    <!-- 03 Free Content -->
+    <a href="free-content.html" class="folder-item">
+      <div class="folder-top">
+        <span class="folder-num">03</span>
+        <span class="folder-name">FREE CONTENT</span>
+      </div>
+      <div style="display:flex; align-items:flex-end; justify-content:space-between;">
+        <span class="folder-desc">Guías y recursos gratis</span>
+        <span class="folder-arrow">→</span>
+      </div>
+    </a>
+
+    <!-- 04 Resultados -->
+    <a href="results.html" class="folder-item">
+      <div class="folder-top">
+        <span class="folder-num">04</span>
+        <span class="folder-name">RESULTADOS</span>
+      </div>
+      <div style="display:flex; align-items:flex-end; justify-content:space-between;">
+        <span class="folder-desc">Lo que dicen mis clientes</span>
+        <span class="folder-arrow">→</span>
+      </div>
+    </a>
+
+  </nav><!-- /folders-nav -->
+
+</main>
+
+<!-- Footer -->
+<footer class="site-footer">
+  <span class="footer-logo">Marketing con Val</span>
+  <span class="footer-copy">© 2025 marketingconval.com</span>
+  <a href="https://www.instagram.com/marketingconvall" target="_blank" rel="noopener" class="footer-ig">@marketingconvall</a>
+</footer>
+
+<script src="main.js"></script>
+</body>
+</html>
